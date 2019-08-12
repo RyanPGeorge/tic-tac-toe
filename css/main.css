@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Luckiest Guy', cursive;*/
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: darkblue;
+}
+
+div {
+    color: darkblue;
+}
+
+.game-board {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.bottom {
+    border-bottom: 5px solid black;
+}
+
+.right {
+    border-right: 5px solid black;
+}
+
+section:last-child {
+    margin-top: 3em;
+}
+
+button {
+    width: 5em;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .5em;
+    border-radius: 5px;
+    border: 2px solid black;
+    justify-content: safe;
+}
